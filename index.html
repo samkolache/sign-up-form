@@ -26,11 +26,55 @@
             </div>
             <p>You <i>know</i> you want to</p>
             <div class="form-container">
+                <p>Lets do this!</p>
+                <div class="input-form">
+                    <form action="/" id="form">
 
+                        <div class="info">
+                            <div class="name input-control">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name = "first-name" id = "first-name">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-control">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" name = "last-name" id = "last-name">
+                                <div class="error"></div>
+                            </div>                            
+                        </div>
+                        
+                        <div class="big-contact">
+                            <div class="contact input-control">
+                                <label for="email">EMAIL</label>
+                                <input title = "Please enter a valid email" type="email" name = "email" id = "email"> 
+                                <div class="error"></div>  
+                            </div>
+                           <div class="input-control">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="number" name = "phone-number" id = "phone-number">
+                                <div class="error"></div>
+                           </div>                          
+                        </div>
+                    
+                        <div class="password input-control">
+                                <label for="password">PASSWORD</label>
+                                <input title = "Must be at least 8 characters" type="password" name = "password" id = "password">
+                                <div class="error"></div>
+                        </div>            
+                            <div class="input-control">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" name = "confirm-password" id = "confirm-password">
+                                <div class="error"></div>
+                            </div>
+                            
+    
+                        <button id="button">Create Account</button>
+                    </form>
+                </div>
             </div>
-            <button>Create Account</button>
             <p>Already have an account? <span class = "camo">Log in</span></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
